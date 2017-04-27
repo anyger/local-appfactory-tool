@@ -1,0 +1,33 @@
+{
+  "name": "local-appfactory-demo",
+  "description": "The cli tool for local appfactory build",
+  "version": "1.0.0",
+  "keywords": [
+    "toolkit",
+    "cli"
+  ],
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": {
+    "lad": "./bin/lad.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "commander": "^2.9.0",
+    "q": "^1.5.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "engine-strict": true,
+  "engines": {
+    "node": ">= 0.12"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
